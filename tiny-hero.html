@@ -26,7 +26,7 @@
             duplication, and maintainability issues.
         </p>
 
-        <a href="assets/original/<iframe width="560" height="315" src="https://www.youtube.com/embed/J-yC6ZepRlk?si=UCVNNkN3QbUKSx8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" target="_blank">
+        <a href="assets/original/"
             View Code Review (Video Link)
         </a>
     </section>
@@ -38,7 +38,7 @@
             This is the original version of the game before enhancements.
         </p>
 
-        <a href="assets/original/original-game.zip" target="_blank">
+        <a href="assets/dungeonAdventureRPG_Original.zip" target="_blank">
             Download Original Project
         </a>
     </section>
@@ -49,16 +49,11 @@
 
         <ul>
             <li>
-                <a href="assets/enhanced/enhanced-game.zip">
-                    Software Engineering Improvements (Refactored Code)
+                <a href="assets/dungeonAdventureRPG_FINAL.zip">
+                    Enhanced Code
                 </a>
             </li>
             <li>
-                <a href="assets/enhanced/database-version.zip">
-                    Database Integration Version (SQLite Save System)
-                </a>
-            </li>
-        </ul>
     </section>
 
     <!-- NARRATIVE -->
@@ -67,23 +62,39 @@
 
         <h3>Software Engineering & Design</h3>
         <p>
-            In this enhancement, I refactored the original monolithic game code into modular components,
-            improving separation of concerns. I created distinct modules for player logic, enemy behavior,
-            and game flow. This demonstrates my ability to design scalable and maintainable software systems.
+            The Software Design and Engineering enhancement focused on refactoring the original monolithic game into a modular, object-oriented architecture. The project was reorganized into multiple files, including main.py, game.py, player.py, enemy.py, and room.py, separating responsibilities and improving maintainability.
+            I selected this artifact because it demonstrates my growth in writing clean, maintainable, and scalable software, which is essential for real-world development. Key improvements include improved class design, separation of game logic, elimination of duplicated code, and clearer function responsibilities. These changes made the codebase significantly easier to extend for future features such as enemy tracking and database integration.
+            Through this enhancement, I learned that functional code is not necessarily well-designed code. One of the biggest challenges was untangling tightly coupled logic from the original version. Many functions depended on shared global state, which required careful restructuring to preserve functionality while improving design. I also gained a deeper understanding of Python module imports and object interactions.
+            This enhancement helped me meet course outcomes related to:
+            •	Developing modular and maintainable software systems 
+            •	Applying object-oriented programming principles 
+            •	Designing software solutions that align with requirements 
         </p>
 
         <h3>Data Structures & Algorithms</h3>
         <p>
-            I implemented an enemy journal system using dictionaries and lists to track defeated enemies,
-            allowing sorting and lookup operations. This improved the game’s ability to manage dynamic data
-            efficiently and demonstrated my understanding of structured data handling.
+            The Algorithms and Data Structures enhancement introduced an Enemy Journal system, which tracks defeated enemies and stores their attributes such as name, health, and attack power. The system uses structured collections (dictionaries and lists) to store, search, and sort enemy data, adding a progression-based layer to gameplay.
+            I selected this artifact because it demonstrates my ability to apply data structures and algorithms to solve meaningful in-game tracking problems. Instead of enemies being temporary encounters, they are now recorded and analyzed.
+            Key skills demonstrated include selecting appropriate data structures, implementing search functionality by enemy name, and sorting enemies based on attributes. These improvements transformed the game from a simple combat loop into a structured system that tracks player progress over time.
+            A major challenge was deciding how to structure enemy data efficiently. I tested multiple approaches before choosing a combination of dictionaries for fast lookups and lists for ordered storage. I also had to ensure consistency in how enemy attributes were stored to avoid errors in sorting and comparison logic.
+            Feedback from earlier versions encouraged me to make the system more interactive and useful, which led to adding search and sorting features rather than only logging data.
+            This enhancement helped me meet course outcomes related to:
+            •	Applying data structures to organize and process information 
+            •	Designing algorithms for search and sorting 
+            •	Extending program functionality using structured data 
         </p>
 
         <h3>Databases</h3>
         <p>
-            I integrated SQLite to persist player progress, inventory, and combat history. This replaced
-            in-memory storage and allowed the game to maintain state across sessions, demonstrating database design
-            and CRUD operations.
+            The Database enhancement upgraded the game from temporary in-memory storage to a persistent system using SQLite. This allowed player stats, inventory items, defeated enemies, and game progress to be saved and loaded between sessions.
+            I included this artifact because it demonstrates my ability to implement persistent data storage and integrate databases into application logic, which is a key skill in modern software development. The enhancement significantly improved the user experience by allowing long-term progression rather than restarting each session.
+            Key improvements include database schema creation, SQL queries for inserting and retrieving data, and integration of save/load functionality into gameplay flow. This required careful structuring of data to ensure consistency between the game state and stored records.
+            One of the biggest challenges was managing synchronization between in-memory game data and the database. I had to carefully determine when to write updates to avoid duplication or data loss. I also gained experience debugging SQL queries and managing database connections effectively.
+            Through this process, I learned how real applications separate logic from persistence layers and how important structured data storage is for scalable systems.
+            This enhancement helped me meet course outcomes related to:
+            •	Designing and implementing database-driven applications 
+            •	Integrating persistent storage into software systems 
+            •	Managing structured data across application layers
         </p>
     </section>
 
@@ -91,14 +102,26 @@
     <section>
         <h2>Professional Self-Assessment</h2>
         <p>
-            Through CS-499, I have strengthened my ability to develop full-stack software systems,
-            refactor existing codebases, and apply database integration techniques. I have also improved
-            my ability to communicate technical decisions clearly and document software for professional presentation.
+            The coursework and creation of my ePortfolio have allowed me to showcase my strengths while demonstrating growth in software engineering, algorithms and data structures, databases,
+            security, communication, and collaboration. The ePortfolio serves as a collection of projects that highlights both my technical skills and my ability to apply computer science concepts to real-world problems.  
         </p>
-
+            One important skill I developed during the program was collaborating and communicating with stakeholders. 
+        Through project-based coursework, I learned how to analyze requirements, gather user needs, and translate those requirements into technical solutions. 
+        Many assignments required documenting system designs, explaining technical decisions, and presenting solutions in a way that could be understood by both technical and non-technical audiences. 
+        These experiences strengthened my communication skills and prepared me to work effectively within professional development teams.
         <p>
-            These experiences have prepared me for roles in software engineering, embedded systems,
-            and backend development by demonstrating real-world application of computer science principles.
+           The program also enhanced my understanding of data structures and algorithms. 
+        Through various assignments, I learned how to evaluate efficiency, organize data effectively, and implement searching and sorting techniques to improve program performance. 
+        My software engineering skills were strengthened through projects that required modular design, object-oriented programming, testing, debugging, and code refactoring. 
+        Additionally, database coursework provided experience designing relational databases, writing SQL queries, and integrating persistent storage into applications. 
+        Security concepts were incorporated throughout the curriculum, emphasizing secure coding practices, input validation, authentication, and protecting data from common vulnerabilities. 
+        </p>
+        <p>
+         The artifacts included in this ePortfolio demonstrate the progression of these skills. 
+        Together, they showcase my ability to design, develop, enhance, and maintain software systems while applying computer science principles to solve complex problems. 
+        The Software Design and Engineering artifact highlights maintainability, modularity, and object-oriented programming practices. 
+        The Algorithms and Data Structures artifact demonstrates efficient data organization, searching, and sorting techniques. The Databases artifact illustrates database integration, persistent storage, and data management. 
+        Collectively, these artifacts represent the knowledge and skills I have gained throughout the program and demonstrate my readiness to begin a professional career in computer science.
         </p>
     </section>
 
